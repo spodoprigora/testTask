@@ -5,7 +5,7 @@ class Singleton {
     private static $instance = null;
 
     private function __construct() {}
-    protected function __clone() {}
+    private function __clone() {}
 
     static public function getInstance() {
         if(is_null(self::$instance))
