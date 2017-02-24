@@ -1,0 +1,65 @@
+#form{
+    width: 220px;
+    overflow: hidden;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+#form label{
+    float: left;
+}
+#form input{
+    float: right;
+    margin-bottom: 5px;
+}
+#form label{
+    float: left;
+    margin-bottom: 5px;
+}
+li.user {
+    margin-bottom: 10px;
+}
+ul li{
+   margin-bottom: 5px;
+   margin-top: 5px;
+
+}
+span.update, span.delete, span.delete_phone{
+    padding: 3px;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+span.update{
+   background-color: #DBEAF9;
+
+}
+span.delete, span.delete_phone{
+   background-color: red;
+    margin-left: 10px;
+}
+
+#modal{
+    display: none;
+    width: 300px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    background-color: #DBEAF9;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.row {
+    margin-bottom:10px;
+}
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+    cursor: pointer;
+
+}
